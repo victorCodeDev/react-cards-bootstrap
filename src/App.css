@@ -1,7 +1,13 @@
 .app {
-    background: rgb(238, 69, 64);
     height: 100vh;
+    background: rgb(41, 126, 139);
+    background: linear-gradient(0deg, rgba(41, 126, 139, 1) 46%, rgba(4, 85, 193, 1) 81%);
+}
 
-    background: rgb(251,63,78);
-    background: radial-gradient(circle, rgba(251,63,78,1) 0%, rgba(193,70,252,1) 100%);
+@media screen and (max-width: 768px) {
+    .app{
+        height: 100%;
+        padding-top: 5%;
+    }
+
 }

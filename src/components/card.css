@@ -1,0 +1,38 @@
+h4 {
+    margin-top: 5px !important;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.275);
+    transition: all 0.7s linear;
+}
+
+.card-text {
+    height: 160px !important;
+    font-size: 1.0rem;;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.img-height{
+    height: 130px;
+
+}
+
+.card-img-top {
+    transition: all 0.2s ease-in-out;
+}
+
+.card-img-top:hover {    
+    transform: scale(1.8);      
+}
+
+
+@media screen and (max-width: 992px) {
+    .card-text{
+        font-size: 0.8rem;
+    }
+
+}
